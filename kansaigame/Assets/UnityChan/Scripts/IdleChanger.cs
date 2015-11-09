@@ -38,10 +38,15 @@ public class IdleChanger : MonoBehaviour
 	// Update is called once per frame
 	void  Update ()
 	{
+//		if (transform.localPosition.y > 1) {
+//
+//			anim.SetBool ("Next", true);
+//		}
+
 		// ↑キー/スペースが押されたら、ステートを次に送る処理
 		if (Input.GetKeyDown ("up") || Input.GetButton ("Jump")) {
 			// ブーリアンNextをtrueにする
-			anim.SetBool ("Next", true);
+			anim.SetBool ("Back", true);
 		}
 		
 		// ↓キーが押されたら、ステートを前に戻す処理

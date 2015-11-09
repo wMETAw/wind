@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AirResistance.cs" />
      <Compile Include="Assets\Locomotion Setup\Locomotion\Scripts\Locomotion.cs" />
      <Compile Include="Assets\Locomotion Setup\Scripts\JoystickToEvents.cs" />
      <Compile Include="Assets\Locomotion Setup\Scripts\LocomotionPlayer.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
      <Compile Include="Assets\UnityChan\Scripts\ThirdPersonCamera.cs" />
      <Compile Include="Assets\UnityChan\Scripts\UnityChanControlScriptWithRgidBody.cs" />
+     <Compile Include="Assets\Wind.cs" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
      <None Include="Assets\UnityChan\Models\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
      <None Include="Assets\UnityChan\license.txt" />
